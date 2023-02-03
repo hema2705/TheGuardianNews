@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="NetworkRunner.RunnableTests" time="18.25" tests="18" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="cucumber.features" value="src/main/resources/features/F1_NewsValidation_Comparision.feature,&#10; 		                        src/main/resources/features/F2_NewsValidation_Time.feature,&#10; 		                        src/main/resources/features/F3_MainPageValidation.feature"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="src/main/resources/TestDrivers/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/hema/eclipse-workspace/TheGuardianNews/target/test-classes:/Users/hema/eclipse-workspace/TheGuardianNews/target/classes:/Users/hema/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/hema/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/hema/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/hema/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.11.0/cucumber-junit-platform-engine-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-core/7.11.0/cucumber-core-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-gherkin/7.11.0/cucumber-gherkin-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.0/cucumber-gherkin-messages-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/hema/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/hema/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-expressions/16.1.1/cucumber-expressions-16.1.1.jar:/Users/hema/.m2/repository/io/cucumber/datatable/7.11.0/datatable-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-plugin/7.11.0/cucumber-plugin-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/docstring/7.11.0/docstring-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/hema/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/hema/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/hema/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/hema/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.2/junit-platform-suite-engine-1.9.2.jar:/Users/hema/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.2/junit-platform-suite-api-1.9.2.jar:/Users/hema/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.2/junit-platform-suite-commons-1.9.2.jar:/Users/hema/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:/Users/hema/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-junit/7.6.0/cucumber-junit-7.6.0.jar:/Users/hema/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/hema/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-java/7.6.0/cucumber-java-7.6.0.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-picocontainer/7.6.0/cucumber-picocontainer-7.6.0.jar:/Users/hema/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-java/4.8.0/selenium-java-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.0/selenium-api-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.8.0/selenium-chrome-driver-4.8.0.jar:/Users/hema/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/hema/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/hema/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.8.0/selenium-chromium-driver-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.0/selenium-json-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v107/4.8.0/selenium-devtools-v107-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v108/4.8.0/selenium-devtools-v108-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v109/4.8.0/selenium-devtools-v109-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.8.0/selenium-devtools-v85-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.8.0/selenium-edge-driver-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.0/selenium-firefox-driver-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.0/selenium-http-4.8.0.jar:/Users/hema/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.8.0/selenium-ie-driver-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.0/selenium-remote-driver-4.8.0.jar:/Users/hema/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/hema/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/hema/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/hema/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/hema/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/hema/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/hema/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/hema/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/hema/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/hema/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/hema/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/hema/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/hema/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.0/selenium-manager-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.8.0/selenium-safari-driver-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.0/selenium-support-4.8.0.jar:/Users/hema/.m2/repository/net/masterthought/cucumber-reporting/5.7.2/cucumber-reporting-5.7.2.jar:/Users/hema/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/hema/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/hema/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/Users/hema/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/Users/hema/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/hema/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/hema/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/hema/.m2/repository/joda-time/joda-time/2.10.14/joda-time-2.10.14.jar:/Users/hema/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/hema/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/hema/.m2/repository/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar:/Users/hema/.m2/repository/org/jsoup/jsoup/1.15.1/jsoup-1.15.1.jar:/Users/hema/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/hema/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/hema/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/hema/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/hema/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/hema/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/hema/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/hema/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/hema/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/hema/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/hema/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/hema/eclipse-workspace/TheGuardianNews/target/surefire/surefirebooter-20230203122359880_3.jar /Users/hema/eclipse-workspace/TheGuardianNews/target/surefire 2023-02-03T12-23-58_849-jvmRun1 surefire-20230203122359880_1tmp surefire_0-20230203122359880_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/hema/eclipse-workspace/TheGuardianNews/target/test-classes:/Users/hema/eclipse-workspace/TheGuardianNews/target/classes:/Users/hema/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/hema/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/hema/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/hema/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.11.0/cucumber-junit-platform-engine-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-core/7.11.0/cucumber-core-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-gherkin/7.11.0/cucumber-gherkin-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.0/cucumber-gherkin-messages-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/hema/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/hema/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-expressions/16.1.1/cucumber-expressions-16.1.1.jar:/Users/hema/.m2/repository/io/cucumber/datatable/7.11.0/datatable-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-plugin/7.11.0/cucumber-plugin-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/docstring/7.11.0/docstring-7.11.0.jar:/Users/hema/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/hema/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/hema/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/hema/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/hema/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.2/junit-platform-suite-engine-1.9.2.jar:/Users/hema/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.2/junit-platform-suite-api-1.9.2.jar:/Users/hema/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.2/junit-platform-suite-commons-1.9.2.jar:/Users/hema/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.2/junit-platform-launcher-1.9.2.jar:/Users/hema/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-junit/7.6.0/cucumber-junit-7.6.0.jar:/Users/hema/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/hema/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-java/7.6.0/cucumber-java-7.6.0.jar:/Users/hema/.m2/repository/io/cucumber/cucumber-picocontainer/7.6.0/cucumber-picocontainer-7.6.0.jar:/Users/hema/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-java/4.8.0/selenium-java-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.0/selenium-api-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.8.0/selenium-chrome-driver-4.8.0.jar:/Users/hema/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/hema/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/hema/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.8.0/selenium-chromium-driver-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.0/selenium-json-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v107/4.8.0/selenium-devtools-v107-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v108/4.8.0/selenium-devtools-v108-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v109/4.8.0/selenium-devtools-v109-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.8.0/selenium-devtools-v85-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.8.0/selenium-edge-driver-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.0/selenium-firefox-driver-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.0/selenium-http-4.8.0.jar:/Users/hema/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.8.0/selenium-ie-driver-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.0/selenium-remote-driver-4.8.0.jar:/Users/hema/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/hema/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/hema/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/hema/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/hema/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/hema/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/hema/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/hema/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/hema/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/hema/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/hema/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/hema/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/hema/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/hema/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/hema/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/hema/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.0/selenium-manager-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.8.0/selenium-safari-driver-4.8.0.jar:/Users/hema/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.0/selenium-support-4.8.0.jar:/Users/hema/.m2/repository/net/masterthought/cucumber-reporting/5.7.2/cucumber-reporting-5.7.2.jar:/Users/hema/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/hema/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/hema/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/Users/hema/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/Users/hema/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/hema/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/hema/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/hema/.m2/repository/joda-time/joda-time/2.10.14/joda-time-2.10.14.jar:/Users/hema/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/hema/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/hema/.m2/repository/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar:/Users/hema/.m2/repository/org/jsoup/jsoup/1.15.1/jsoup-1.15.1.jar:/Users/hema/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/hema/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/hema/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/hema/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/hema/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/hema/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/hema/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/hema/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/hema/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/hema/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/hema/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/hema"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"/>
+    <property name="basedir" value="/Users/hema/eclipse-workspace/TheGuardianNews"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/hema/eclipse-workspace/TheGuardianNews/target/surefire/surefirebooter-20230203122359880_3.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/resources.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/rt.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/sunrsasign.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jsse.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jce.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/charsets.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jfr.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="cucumber.plugin" value="pretty, html:src/test/resources/Reports/Results_2023-02-03T11:23:54Z.html"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="user.name" value="hema"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/hema/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/mf/j0n3s12n1tlf4g1yg6gg3_1h0000gn/T/"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="user.dir" value="/Users/hema/eclipse-workspace/TheGuardianNews"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/hema/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.ext.dirs" value="/Users/hema/Library/Java/Extensions:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="View the news portal Launched" classname="The Guardian News real or fake" time="5.071">
+    <system-out><![CDATA[
+@acceptcookies
+Scenario: View the news portal Launched                                   &amp#27;[90m# src/main/resources/features/F1_NewsValidation_Comparision.feature:5&amp#27;[0m
+This will run only before the First Scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m                              &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+
+    News | The Guardian
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser see the title of the page is and cookies message on home page&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.user_see_the_title_of_the_page_is_and_cookies_message_on_home_page(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | https://www.theguardian.com/tone/news |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverify the page title and accept all cookies&amp#27;[0m                       &amp#27;[90m# StepDefinations.News_Steps.verify_the_page_title_and_accept_all_cookies()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Feb 03, 2023 12:24:01 PM io.cucumber.junit.platform.engine.DiscoverySelectorResolver warnWhenCucumberFeaturesPropertyIsUsed
+WARNING: Discovering tests using the cucumber.features property. Other discovery selectors are ignored!
+Please request/upvote/sponsor/ect better support for JUnit 5 discovery selectors.
+See: https://github.com/cucumber/cucumber-jvm/pull/2498
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 8392
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1675423447.817][WARNING]: This version of ChromeDriver has not been tested with Chrome version 109.
+]]></system-err>
+  </testcase>
+  <testcase name="View the news portal Launched" classname="The Guardian News real or fake" time="2.421">
+    <system-out><![CDATA[
+@acceptcookies
+Scenario: View the news portal Launched                                   &amp#27;[90m# src/main/resources/features/F1_NewsValidation_Comparision.feature:5&amp#27;[0m
+This will run only before the First Scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m                              &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+
+    News | The Guardian
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser see the title of the page is and cookies message on home page&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.user_see_the_title_of_the_page_is_and_cookies_message_on_home_page(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | https://www.theguardian.com/tone/news |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverify the page title and accept all cookies&amp#27;[0m                       &amp#27;[90m# StepDefinations.News_Steps.verify_the_page_title_and_accept_all_cookies()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[&amp#27;[32m&amp#27;[1m┌───────────────────────────────────────────────────────────────────────────────────┐&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Share your Cucumber Report with your team at &amp#27;[36m&amp#27;[1m&amp#27;[4mhttps://reports.cucumber.io&amp#27;[0m          &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Activate publishing with one of the following:                                    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.enabled&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Environment variable:                            &amp#27;[36mCUCUMBER_PUBLISH_ENABLED&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m    &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m JUnit:                                           &amp#27;[36m@CucumberOptions&amp#27;[0m(publish = &amp#27;[36mtrue&amp#27;[0m) &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m More information at &amp#27;[36mhttps://cucumber.io/docs/cucumber/environment-variables/&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m Disable this message with one of the following:                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m                                                                                   &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/cucumber.properties:          &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m│&amp#27;[0m src/test/resources/junit-platform.properties:    &amp#27;[36mcucumber.publish.quiet&amp#27;[0m=&amp#27;[36mtrue&amp#27;[0m      &amp#27;[32m&amp#27;[1m│&amp#27;[0m
+&amp#27;[32m&amp#27;[1m└───────────────────────────────────────────────────────────────────────────────────┘&amp#27;[0m
+]]></system-err>
+  </testcase>
+  <testcase name="Close the support" classname="The Guardian News real or fake" time="1.597">
+    <system-out><![CDATA[
+@closesupport
+Scenario: Close the support                     &amp#27;[90m# src/main/resources/features/F1_NewsValidation_Comparision.feature:12&amp#27;[0m
+This will run only before the Second Scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m    &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser sees the get support window&amp#27;[0m         &amp#27;[90m# StepDefinations.News_Steps.user_sees_the_get_support_window()&amp#27;[0m
+no such element
+
+    close the support window 
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mclick the close button of support window&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.click_the_close_button_of_support_window()&amp#27;[0m
+
+    verified Actual date and Expected date
+
+
+     Actual date:2023-02-03
+
+
+     Expected date:2023-02-03
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverify the current date&amp#27;[0m                   &amp#27;[90m# StepDefinations.News_Steps.verify_the_current_date()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Close the support" classname="The Guardian News real or fake" time="0.218">
+    <system-out><![CDATA[
+@closesupport
+Scenario: Close the support                     &amp#27;[90m# src/main/resources/features/F1_NewsValidation_Comparision.feature:12&amp#27;[0m
+This will run only before the Second Scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m    &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser sees the get support window&amp#27;[0m         &amp#27;[90m# StepDefinations.News_Steps.user_sees_the_get_support_window()&amp#27;[0m
+no such element
+
+    close the support window 
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mclick the close button of support window&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.click_the_close_button_of_support_window()&amp#27;[0m
+
+    verified Actual date and Expected date
+
+
+     Actual date:2023-02-03
+
+
+     Expected date:2023-02-03
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverify the current date&amp#27;[0m                   &amp#27;[90m# StepDefinations.News_Steps.verify_the_current_date()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="6.089">
+    <system-out><![CDATA[
+@validation
+Scenario Outline: Verify the news fact checks using string similarity algorithm          &amp#27;[90m# src/main/resources/features/F1_NewsValidation_Comparision.feature:29&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m                                             &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+Martinelli signs new Arsenal deal, Tottenham defend transfer strategy – live
+‘Chance of a lifetime’ Vermeer exhibition to open in Amsterdam
+Man caught with crossbow at Windsor Castle admits trying to harm Queen
+Russia-Ukraine war live: Ukraine presses criminal charges against Wagner group founder Yevgeny Prigozhin
+Russia-Ukraine war at a glance: what we know on day 345 of the invasion
+Dominic Raab denies being abusive towards anti-Brexit campaigner Gina Miller – UK politics live
+Pentagon says it is monitoring Chinese spy balloon spotted flying over US
+Still a ‘long way to go’ to control inflation, BoE governor warns; service sector hit by strikes and worker shortages – business live
+First Thing: Police killings will continue until system changes, grieving family says
+Gary Glitter freed from jail after serving half of 16-year sentence – reports
+Nicola Bulley: partner of missing woman talks of search ‘brick wall’
+Record signing Enzo Fernández says he wants to take Chelsea 'to the next level' – video
+Montreal restaurant that never was shows perils of online reviews
+Blobs of human brain planted in rats offer new treatment hope
+The man in charge of how the US spends $400bn to shift away from fossil fuels
+John Barilaro: NSW government hands report into office’s intervention in bushfire grants to Icac
+Home Office shelves plans to house asylum seekers in Southport Pontins
+Chinese 'spy balloon' spotted flying over US – video
+Premier League and EFL financial settlement is urgent, insists Labour
+Chess: Anish Giri wins at Wijk aan Zee as Carlsen misses out by just half a point
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser reads the displayed news&amp#27;[0m                                                     &amp#27;[90m# StepDefinations.News_Steps.user_reads_the_displayed_news()&amp#27;[0m
+the news is found 
+
+    the news is found 
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mwant to validate the news is displayed&amp#27;[0m                                             &amp#27;[90m# StepDefinations.News_Steps.want_to_validate_the_news_is_displayed()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser copies the selected news header details in new window&amp#27;[0m                        &amp#27;[90m# StepDefinations.News_Steps.user_copies_the_selected_news_header_details_in_new_window()&amp#27;[0m
+
+    Verifying the news for :Martinelli signs new Arsenal deal, Tottenham defend transfer strategy – live
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverifies in the search results for corrcetness in google with title positoned at &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.verifies_in_the_search_results_for_corrcetness_in_google_with_title_positoned_at(java.lang.Integer)&amp#27;[0m
+
+    The news similar on google search is 12
+
+12********************
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverfiy the news with position &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m is real&amp#27;[0m                                            &amp#27;[90m# StepDefinations.News_Steps.verfiy_the_news_with_position_is_real(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="4.233">
+    <system-out><![CDATA[
+Scenario Outline: Verify the guardian news timestamp                                     &amp#27;[90m# src/main/resources/features/F2_NewsValidation_Time.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m                                             &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+Martinelli signs new Arsenal deal, Tottenham defend transfer strategy – live
+‘Chance of a lifetime’ Vermeer exhibition to open in Amsterdam
+Man caught with crossbow at Windsor Castle admits trying to harm Queen
+Russia-Ukraine war live: Ukraine presses criminal charges against Wagner group founder Yevgeny Prigozhin
+Russia-Ukraine war at a glance: what we know on day 345 of the invasion
+Dominic Raab denies being abusive towards anti-Brexit campaigner Gina Miller – UK politics live
+Pentagon says it is monitoring Chinese spy balloon spotted flying over US
+Still a ‘long way to go’ to control inflation, BoE governor warns; service sector hit by strikes and worker shortages – business live
+First Thing: Police killings will continue until system changes, grieving family says
+Gary Glitter freed from jail after serving half of 16-year sentence – reports
+Nicola Bulley: partner of missing woman talks of search ‘brick wall’
+Record signing Enzo Fernández says he wants to take Chelsea 'to the next level' – video
+Montreal restaurant that never was shows perils of online reviews
+Blobs of human brain planted in rats offer new treatment hope
+The man in charge of how the US spends $400bn to shift away from fossil fuels
+John Barilaro: NSW government hands report into office’s intervention in bushfire grants to Icac
+Home Office shelves plans to house asylum seekers in Southport Pontins
+Chinese 'spy balloon' spotted flying over US – video
+Premier League and EFL financial settlement is urgent, insists Labour
+Chess: Anish Giri wins at Wijk aan Zee as Carlsen misses out by just half a point
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser reads the displayed news&amp#27;[0m                                                     &amp#27;[90m# StepDefinations.News_Steps.user_reads_the_displayed_news()&amp#27;[0m
+the news is found 
+
+    the news is found 
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mwant to validate the news is displayed&amp#27;[0m                                             &amp#27;[90m# StepDefinations.News_Steps.want_to_validate_the_news_is_displayed()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser copies the selected news header details in new window&amp#27;[0m                        &amp#27;[90m# StepDefinations.News_Steps.user_copies_the_selected_news_header_details_in_new_window()&amp#27;[0m
+
+    Verifying the news for :Martinelli signs new Arsenal deal, Tottenham defend transfer strategy – live
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverifies in the search results for corrcetness in google with title positoned at &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.verifies_in_the_search_results_for_corrcetness_in_google_with_title_positoned_at(java.lang.Integer)&amp#27;[0m
+the news is latest and not older than a day ago
+
+    the news is latest and not older than a day ago
+
+  &amp#27;[32mBut &amp#27;[0m&amp#27;[32mif the timestamp of the reslt news is more than a day identify as dead news&amp#27;[0m        &amp#27;[90m# StepDefinations.News_Steps.if_the_timestamp_of_the_reslt_news_is_more_than_a_day_identify_as_dead_news()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="4.728">
+    <system-out><![CDATA[
+@validation
+Scenario Outline: Verify the news fact checks using string similarity algorithm          &amp#27;[90m# src/main/resources/features/F1_NewsValidation_Comparision.feature:29&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m                                             &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+Martinelli signs new Arsenal deal, Tottenham defend transfer strategy – live
+‘Chance of a lifetime’ Vermeer exhibition to open in Amsterdam
+Man caught with crossbow at Windsor Castle admits trying to harm Queen
+Russia-Ukraine war live: Ukraine presses criminal charges against Wagner group founder Yevgeny Prigozhin
+Russia-Ukraine war at a glance: what we know on day 345 of the invasion
+Dominic Raab denies being abusive towards anti-Brexit campaigner Gina Miller – UK politics live
+Pentagon says it is monitoring Chinese spy balloon spotted flying over US
+Still a ‘long way to go’ to control inflation, BoE governor warns; service sector hit by strikes and worker shortages – business live
+First Thing: Police killings will continue until system changes, grieving family says
+Gary Glitter freed from jail after serving half of 16-year sentence – reports
+Nicola Bulley: partner of missing woman talks of search ‘brick wall’
+Record signing Enzo Fernández says he wants to take Chelsea 'to the next level' – video
+Montreal restaurant that never was shows perils of online reviews
+Blobs of human brain planted in rats offer new treatment hope
+The man in charge of how the US spends $400bn to shift away from fossil fuels
+John Barilaro: NSW government hands report into office’s intervention in bushfire grants to Icac
+Home Office shelves plans to house asylum seekers in Southport Pontins
+Chinese 'spy balloon' spotted flying over US – video
+Premier League and EFL financial settlement is urgent, insists Labour
+Chess: Anish Giri wins at Wijk aan Zee as Carlsen misses out by just half a point
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser reads the displayed news&amp#27;[0m                                                     &amp#27;[90m# StepDefinations.News_Steps.user_reads_the_displayed_news()&amp#27;[0m
+the news is found 
+
+    the news is found 
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mwant to validate the news is displayed&amp#27;[0m                                             &amp#27;[90m# StepDefinations.News_Steps.want_to_validate_the_news_is_displayed()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser copies the selected news header details in new window&amp#27;[0m                        &amp#27;[90m# StepDefinations.News_Steps.user_copies_the_selected_news_header_details_in_new_window()&amp#27;[0m
+
+    Verifying the news for :Martinelli signs new Arsenal deal, Tottenham defend transfer strategy – live
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverifies in the search results for corrcetness in google with title positoned at &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.verifies_in_the_search_results_for_corrcetness_in_google_with_title_positoned_at(java.lang.Integer)&amp#27;[0m
+
+    The news similar on google search is 12
+
+12********************
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverfiy the news with position &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m is real&amp#27;[0m                                            &amp#27;[90m# StepDefinations.News_Steps.verfiy_the_news_with_position_is_real(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="3.916">
+    <system-out><![CDATA[
+Scenario Outline: Verify the guardian news timestamp                                     &amp#27;[90m# src/main/resources/features/F2_NewsValidation_Time.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m                                             &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+Martinelli signs new Arsenal deal, Tottenham defend transfer strategy – live
+‘Chance of a lifetime’ Vermeer exhibition to open in Amsterdam
+Man caught with crossbow at Windsor Castle admits trying to harm Queen
+Russia-Ukraine war live: Ukraine presses criminal charges against Wagner group founder Yevgeny Prigozhin
+Russia-Ukraine war at a glance: what we know on day 345 of the invasion
+Dominic Raab denies being abusive towards anti-Brexit campaigner Gina Miller – UK politics live
+Pentagon says it is monitoring Chinese spy balloon spotted flying over US
+Still a ‘long way to go’ to control inflation, BoE governor warns; service sector hit by strikes and worker shortages – business live
+First Thing: Police killings will continue until system changes, grieving family says
+Gary Glitter freed from jail after serving half of 16-year sentence – reports
+Nicola Bulley: partner of missing woman talks of search ‘brick wall’
+Record signing Enzo Fernández says he wants to take Chelsea 'to the next level' – video
+Montreal restaurant that never was shows perils of online reviews
+Blobs of human brain planted in rats offer new treatment hope
+The man in charge of how the US spends $400bn to shift away from fossil fuels
+John Barilaro: NSW government hands report into office’s intervention in bushfire grants to Icac
+Home Office shelves plans to house asylum seekers in Southport Pontins
+Chinese 'spy balloon' spotted flying over US – video
+Premier League and EFL financial settlement is urgent, insists Labour
+Chess: Anish Giri wins at Wijk aan Zee as Carlsen misses out by just half a point
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser reads the displayed news&amp#27;[0m                                                     &amp#27;[90m# StepDefinations.News_Steps.user_reads_the_displayed_news()&amp#27;[0m
+the news is found 
+
+    the news is found 
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mwant to validate the news is displayed&amp#27;[0m                                             &amp#27;[90m# StepDefinations.News_Steps.want_to_validate_the_news_is_displayed()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser copies the selected news header details in new window&amp#27;[0m                        &amp#27;[90m# StepDefinations.News_Steps.user_copies_the_selected_news_header_details_in_new_window()&amp#27;[0m
+
+    Verifying the news for :Martinelli signs new Arsenal deal, Tottenham defend transfer strategy – live
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverifies in the search results for corrcetness in google with title positoned at &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.verifies_in_the_search_results_for_corrcetness_in_google_with_title_positoned_at(java.lang.Integer)&amp#27;[0m
+the news is latest and not older than a day ago
+
+    the news is latest and not older than a day ago
+
+  &amp#27;[32mBut &amp#27;[0m&amp#27;[32mif the timestamp of the reslt news is more than a day identify as dead news&amp#27;[0m        &amp#27;[90m# StepDefinations.News_Steps.if_the_timestamp_of_the_reslt_news_is_more_than_a_day_identify_as_dead_news()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="View the news portal Launched" classname="The Guardian News headlines are latest" time="3.54">
+    <system-out><![CDATA[
+@acceptcookies
+Scenario: View the news portal Launched                                   &amp#27;[90m# src/main/resources/features/F2_NewsValidation_Time.feature:3&amp#27;[0m
+This will run only before the First Scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m                              &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+
+    News | The Guardian
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser see the title of the page is and cookies message on home page&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.user_see_the_title_of_the_page_is_and_cookies_message_on_home_page(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | https://www.theguardian.com/tone/news |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverify the page title and accept all cookies&amp#27;[0m                       &amp#27;[90m# StepDefinations.News_Steps.verify_the_page_title_and_accept_all_cookies()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="View the news portal Launched" classname="The Guardian News headlines are latest" time="2.635">
+    <system-out><![CDATA[
+@acceptcookies
+Scenario: View the news portal Launched                                   &amp#27;[90m# src/main/resources/features/F2_NewsValidation_Time.feature:3&amp#27;[0m
+This will run only before the First Scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m                              &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+
+    News | The Guardian
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser see the title of the page is and cookies message on home page&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.user_see_the_title_of_the_page_is_and_cookies_message_on_home_page(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | https://www.theguardian.com/tone/news |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverify the page title and accept all cookies&amp#27;[0m                       &amp#27;[90m# StepDefinations.News_Steps.verify_the_page_title_and_accept_all_cookies()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Close the support" classname="The Guardian News headlines are latest" time="0.459">
+    <system-out><![CDATA[
+@closesupport
+Scenario: Close the support                     &amp#27;[90m# src/main/resources/features/F2_NewsValidation_Time.feature:10&amp#27;[0m
+This will run only before the Second Scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m    &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser sees the get support window&amp#27;[0m         &amp#27;[90m# StepDefinations.News_Steps.user_sees_the_get_support_window()&amp#27;[0m
+
+    close the support window 
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mclick the close button of support window&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.click_the_close_button_of_support_window()&amp#27;[0m
+
+    verified Actual date and Expected date
+
+
+     Actual date:2023-02-03
+
+
+     Expected date:2023-02-03
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverify the current date&amp#27;[0m                   &amp#27;[90m# StepDefinations.News_Steps.verify_the_current_date()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Close the support" classname="The Guardian News headlines are latest" time="0.405">
+    <system-out><![CDATA[
+@closesupport
+Scenario: Close the support                     &amp#27;[90m# src/main/resources/features/F2_NewsValidation_Time.feature:10&amp#27;[0m
+This will run only before the Second Scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m    &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser sees the get support window&amp#27;[0m         &amp#27;[90m# StepDefinations.News_Steps.user_sees_the_get_support_window()&amp#27;[0m
+no such element
+
+    close the support window 
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mclick the close button of support window&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.click_the_close_button_of_support_window()&amp#27;[0m
+
+    verified Actual date and Expected date
+
+
+     Actual date:2023-02-03
+
+
+     Expected date:2023-02-03
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverify the current date&amp#27;[0m                   &amp#27;[90m# StepDefinations.News_Steps.verify_the_current_date()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="View the news portal Launched" classname="The Guardian News Main Page basic validations" time="3.283">
+    <system-out><![CDATA[
+@acceptcookies
+Scenario: View the news portal Launched                                   &amp#27;[90m# src/main/resources/features/F3_MainPageValidation.feature:5&amp#27;[0m
+This will run only before the First Scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m                              &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+
+    News | The Guardian
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser see the title of the page is and cookies message on home page&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.user_see_the_title_of_the_page_is_and_cookies_message_on_home_page(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | https://www.theguardian.com/tone/news |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverify the page title and accept all cookies&amp#27;[0m                       &amp#27;[90m# StepDefinations.News_Steps.verify_the_page_title_and_accept_all_cookies()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="View the news portal Launched" classname="The Guardian News Main Page basic validations" time="3.345">
+    <system-out><![CDATA[
+@acceptcookies
+Scenario: View the news portal Launched                                   &amp#27;[90m# src/main/resources/features/F3_MainPageValidation.feature:5&amp#27;[0m
+This will run only before the First Scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m                              &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+
+    News | The Guardian
+
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser see the title of the page is and cookies message on home page&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.user_see_the_title_of_the_page_is_and_cookies_message_on_home_page(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | https://www.theguardian.com/tone/news |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverify the page title and accept all cookies&amp#27;[0m                       &amp#27;[90m# StepDefinations.News_Steps.verify_the_page_title_and_accept_all_cookies()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Close the support" classname="The Guardian News Main Page basic validations" time="0.161">
+    <system-out><![CDATA[
+@closesupport
+Scenario: Close the support                     &amp#27;[90m# src/main/resources/features/F3_MainPageValidation.feature:12&amp#27;[0m
+This will run only before the Second Scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m    &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser sees the get support window&amp#27;[0m         &amp#27;[90m# StepDefinations.News_Steps.user_sees_the_get_support_window()&amp#27;[0m
+no such element
+
+    close the support window 
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mclick the close button of support window&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.click_the_close_button_of_support_window()&amp#27;[0m
+
+    verified Actual date and Expected date
+
+
+     Actual date:2023-02-03
+
+
+     Expected date:2023-02-03
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverify the current date&amp#27;[0m                   &amp#27;[90m# StepDefinations.News_Steps.verify_the_current_date()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Close the support" classname="The Guardian News Main Page basic validations" time="0.27">
+    <system-out><![CDATA[
+@closesupport
+Scenario: Close the support                     &amp#27;[90m# src/main/resources/features/F3_MainPageValidation.feature:12&amp#27;[0m
+This will run only before the Second Scenario
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m    &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser sees the get support window&amp#27;[0m         &amp#27;[90m# StepDefinations.News_Steps.user_sees_the_get_support_window()&amp#27;[0m
+no such element
+
+    close the support window 
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mclick the close button of support window&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.click_the_close_button_of_support_window()&amp#27;[0m
+
+    verified Actual date and Expected date
+
+
+     Actual date:2023-02-03
+
+
+     Expected date:2023-02-03
+
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mverify the current date&amp#27;[0m                   &amp#27;[90m# StepDefinations.News_Steps.verify_the_current_date()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the menu items" classname="The Guardian News Main Page basic validations" time="0.118">
+    <system-out><![CDATA[
+Scenario: Verify the menu items                       &amp#27;[90m# src/main/resources/features/F3_MainPageValidation.feature:19&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m          &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser looks for main menu items&amp#27;[0m                 &amp#27;[90m# StepDefinations.News_Steps.user_looks_for_main_menu_items()&amp#27;[0m
+
+     Verified the menu items 
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate all the menus with values are present&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.validate_all_the_menus_with_values_are_present()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the menu items" classname="The Guardian News Main Page basic validations" time="0.174">
+    <system-out><![CDATA[
+Scenario: Verify the menu items                       &amp#27;[90m# src/main/resources/features/F3_MainPageValidation.feature:19&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser launched The Guardian Home Page&amp#27;[0m          &amp#27;[90m# StepDefinations.News_Steps.user_launched_The_guardian_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser looks for main menu items&amp#27;[0m                 &amp#27;[90m# StepDefinations.News_Steps.user_looks_for_main_menu_items()&amp#27;[0m
+
+     Verified the menu items 
+
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate all the menus with values are present&amp#27;[0m &amp#27;[90m# StepDefinations.News_Steps.validate_all_the_menus_with_values_are_present()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
